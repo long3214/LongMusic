@@ -14,4 +14,13 @@ class UserController extends Controller
 
 
     }
+    public function editUser(){
+
+        return view('', compact(''));
+    }
+
+    public function deleteUser(){
+
+        return view('', compact(''));
+    }
 }
